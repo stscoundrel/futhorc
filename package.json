@@ -1,6 +1,6 @@
 {
   "name": "futhorc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Transform latin letters to Futhorc runes & vice versa",
   "repository": "https://github.com/stscoundrel/futhorc.git",
   "author": "stscoundrel <silvennoinen.sampo@gmail.com>",
