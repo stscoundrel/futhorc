@@ -10,8 +10,8 @@ describe('Letters to runes transformation tests', () => {
   });
 
   test('Transforms letters to runes', () => {
-    const letters = 'fuþorc';
-    const expected = 'ᚠᚢᚦᚩᚱᚳ';
+    const letters = 'aábcdðeéfghiíïʒjklmnŋoóǫpqrstuúvwxyýzåäæœöøþ ';
+    const expected = 'ᚪᚪᛒᚳᛞᛞᛖᛖᚠᚷᚻᛁᛇᛇᛇᛡᚳᛚᛗᚾᛝᚩᚩᚩᛈᚳᚱᛋᛏᚢᚢᚹᚹᛉᚣᚣᛉᚩᚫᚫᛟᛟᛟᚦ:';
 
     const result = futhorc.lettersToRunes(letters);
 
