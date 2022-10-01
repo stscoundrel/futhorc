@@ -2,10 +2,10 @@ import futhorc from '../src';
 
 describe('Runes to letters transformation tests', () => {
   test('Transforms runes to letters', () => {
-    const runes = 'ᚠᚢᚦᚩᚱᚳ';
-    const expected = 'fuþorc';
+    const content = 'ᚠᚢᚦᚩᚱᚳᚷᚹᚻᚾᛁᛡᛄᛇᛈᛉᛋᚴᛏᛒᛖᛗᛚᛝᛟᛞᚪᚫᚣᛠ:';
+    const expected = 'fuþorcgwhnijjïpxsstbemlŋœdaæyea ';
 
-    const result = futhorc.runesToLetters(runes);
+    const result = futhorc.runesToLetters(content);
 
     expect(result).toBe(expected);
   });
