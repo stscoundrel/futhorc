@@ -2,6 +2,10 @@
 
 Transform latin letters to Futhorc runes & vice versa
 
+### Deprecation notice:
+
+_This library has been discontinued in favor of [Riimut](https://github.com/stscoundrel/riimut). It contains same functionality for all main runic dialects. This library will also remain available in NPM and should keep working just fine._
+
 Other runic alphabets:
 - [Elder Futhark](https://github.com/stscoundrel/elder-futhark)
 - [Younger Futhark](https://github.com/stscoundrel/younger-futhark)
